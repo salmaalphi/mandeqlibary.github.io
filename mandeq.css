@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    color: #212121;
+}
+
+header {
+    background: #4A6572;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-bottom: 3px solid #000; /* xariiq madow oo 3px ah */
+  padding-bottom: 10px; /* fogaanta xariiqa iyo qoraalka */
+}
+
+nav {
+    background: #607D8B;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
+a {
+  text-decoration: none; /* ka saar underline default */
+  /* border-bottom: 3px solid blue; samee xariiq hoos */
+  padding-bottom: 5px; /* samee gap */
+  color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.book a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 10px;
+    background: #009688;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.book a:hover {
+    background: #00796B;
+}
+
+
+.book button {
+    background: #009688;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background: #00796B;
+}
+
+footer {
+    background: #607D8B;
+    color: white;
+    text-align: center;
+    /* padding: 20%; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
